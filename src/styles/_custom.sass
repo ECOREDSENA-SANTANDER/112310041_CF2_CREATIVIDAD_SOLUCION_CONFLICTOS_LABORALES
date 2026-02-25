@@ -2,8 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 35%
-    right: 10%
+    top: 32%
+    right: 11%
     width: 11%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
@@ -28,7 +28,7 @@
     position: absolute
     top: 2%
     right: 50%
-    width: 19%
+    width: 20%
   &-6
     animation: rotate1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -119,7 +119,7 @@ figcaption
 .bg1
   background-color: #EEF9F8 !important
 .bg2
-  background-color: #BDE6E5
+  background-color: #BDE6E5 !important
 .bg3
   background-color: #FEF6FE !important
 .bg4
@@ -132,12 +132,14 @@ figcaption
   background-color: #244D4C
 .bg8
   background-color: #F9DAFA
-/*.bg-img1
-  background-image:  url('../assets/curso/temas/t2/bg-cta.png')
-  background-size: cover */
-/*.bg-img2
-  background-image:  url('../assets/curso/temas/t4/bg.png')
-  background-size: cover */
+.bg9
+  background-color: #FCF6C3
+.bg-img1
+  background-image:  url('../assets/curso/temas/t1/bg-cta.png')
+  background-size: cover 
+.bg-img2
+  background-image:  url('../assets/curso/temas/t2/bg-slider.png')
+  background-size: cover 
 .w-75x
   width: 75px
 .subt
@@ -220,6 +222,15 @@ figcaption
         font-weight: bold
       td:last-child
         text-align: left
+  &.t4
+    thead tr 
+      background-color: #F7E869
+    tbody tr
+      background-color: #FFFFFF
+      &:nth-child(2n)
+        background-color: #FFFDF0
+      
+
 .tabla-b.color-primario
   tr
     background-color: #EEF9F8
