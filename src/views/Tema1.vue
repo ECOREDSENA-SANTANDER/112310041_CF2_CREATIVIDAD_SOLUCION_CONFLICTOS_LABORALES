@@ -38,7 +38,7 @@
       .col-lg-1.col-md-2.col-3
         img(src='@/assets/curso/temas/t1/3.svg', alt='')
       .col-lg-11.col-md-10.col-9
-        p.mb-0 La comunicación se manifiesta principalmente a través de tres formas que actúan de manera complementaria: la comunicación verbal, la comunicación no verbal y la comunicación paraverbal. Cada una, se integra en el proceso comunicativo y en conjunto, influyen en la interpretación y el significado del mensaje:
+        p.mb-0 La comunicación se manifiesta principalmente a través de #[b tres formas que actúan de manera complementaria]: la comunicación verbal, la comunicación no verbal y la comunicación paraverbal. Cada una, se integra en el proceso comunicativo y en conjunto, influyen en la interpretación y el significado del mensaje:
     
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-primario.p-4.p-lg-5
@@ -155,7 +155,7 @@
           .col-lg-2.col-md-2.col-3
             img(src='@/assets/curso/temas/t1/8.svg', alt='')
           .col-lg-10.col-md-10.col-9
-            p.mb-0 Mejorar la comunicación en contextos laborales implica fortalecer dos aspectos fundamentales: la escucha activa y el manejo consciente de la comunicación no verbal. Escuchar activamente supone prestar atención real al mensaje, interpretar su significado completo y responder de manera adecuada, generando confianza y cooperación.
+            p.mb-0 Mejorar la comunicación en contextos laborales implica fortalecer dos aspectos fundamentales: la #[b escucha activa] y el manejo consciente de la #[b comunicación no verbal]. Escuchar activamente supone prestar atención real al mensaje, interpretar su significado completo y responder de manera adecuada, generando confianza y cooperación.
         p Así mismo, la comunicación no verbal (mirada, tono de voz, gestos y postura) refuerza la credibilidad del mensaje y refleja el estado emocional de quien comunica.
         p La coherencia entre lo que se dice y lo que se expresa corporalmente es clave para construir relaciones laborales sanas, prevenir conflictos y gestionar de forma efectiva las situaciones de desacuerdo.
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")

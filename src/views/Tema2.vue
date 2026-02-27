@@ -140,7 +140,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6(data-aos="fade-right")
-        p En espacios laborales existen personas que, por su comportamiento recurrente, se convierten en focos de problemas y se pueden encontrar en cualquier nivel jerárquico y en ocasiones, uno mismo puede adoptar este rol sin notarlo. No existen fórmulas universales para tratarlas, pero sí estrategias asertivas fundamentales: controlar la ira, comprender las causas del comportamiento, usar un lenguaje respetuoso, cuidar el lenguaje corporal y reconocer los propios aspectos a mejorar.
+        p En espacios laborales existen personas que, por su comportamiento recurrente, se convierten en #[b focos de problemas] y se pueden encontrar en cualquier nivel jerárquico y en ocasiones, uno mismo puede adoptar este rol sin notarlo. No existen fórmulas universales para tratarlas, pero sí estrategias asertivas fundamentales: controlar la ira, comprender las causas del comportamiento, usar un lenguaje respetuoso, cuidar el lenguaje corporal y reconocer los propios aspectos a mejorar.
         .bg1.p-4
           p.mb-0 Identificar estos estilos y responder con asertividad contribuye a reducir tensiones, mejorar la convivencia laboral y fortalecer relaciones profesionales saludables.
       .col-lg-6.d-none.d-lg-block(data-aos="fade-left")

@@ -219,7 +219,7 @@
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/3.png', alt='')
 
-    p Este enfoque integral favorece soluciones sostenibles y aceptadas por las partes.
+    p Este enfoque integral favorece soluciones #[b sostenibles y aceptadas por las partes].
 
     .tarjeta.bg-img1.p-3
       .row.justify-content-around.align-items-center

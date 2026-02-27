@@ -20,7 +20,7 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.p-2.ps-lg-4.pe-lg-5 Metodología para la solución de conflictos
 
-    p.mb-4 La solución de conflictos laborales requiere una metodología estructurada, sistemática y participativa, que permita pasar del análisis a la acción. Para ello, se propone un ciclo de mejora continua basado en las siguientes fases:
+    p.mb-4 La solución de conflictos laborales requiere una #[b metodología estructurada], sistemática y participativa, que permita pasar del análisis a la acción. Para ello, se propone un ciclo de mejora continua basado en las siguientes fases:
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10
@@ -68,7 +68,7 @@
       .row.justify-content-around(titulo="Diagrama de Pareto")
         .col-lg-6
           p El Diagrama de Pareto es una herramienta gráfica que permite priorizar problemas o causas según su nivel de impacto. Se representa mediante barras verticales ordenadas de mayor a menor frecuencia, lo que facilita identificar rápidamente qué situaciones requieren atención inmediata.
-          p Este método se basa en el principio de Pareto, conocido como “pocos vitales y muchos triviales”, el cual indica que, en la mayoría de los casos, el 80 % de los efectos proviene del 20 % de las causas. En términos prácticos, esto significa que no todos los problemas tienen la misma relevancia: algunos pocos explican la mayor parte del conflicto. 
+          p Este método se basa en el principio de Pareto, conocido como “#[b pocos vitales y muchos triviales]”, el cual indica que, en la mayoría de los casos, el 80 % de los efectos proviene del 20 % de las causas. En términos prácticos, esto significa que no todos los problemas tienen la misma relevancia: algunos pocos explican la mayor parte del conflicto. 
         .col-lg-4.col-md-8.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t3/acord1-1.png', alt='')
         .col-lg-11
