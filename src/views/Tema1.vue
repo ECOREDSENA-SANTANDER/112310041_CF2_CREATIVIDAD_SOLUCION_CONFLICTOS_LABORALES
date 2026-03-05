@@ -61,20 +61,18 @@
         p.mb-0 Integra la forma en que se emite el mensaje verbal, a través del tono de voz, la entonación, el ritmo, el volumen, las pausas y los silencios, influyendo en la interpretación y el significado del mensaje.
 
     p.mb-4 Los tres tipos de comunicación influyen de manera directa en la interpretación del mensaje. En muchas situaciones, los componentes no verbales y paraverbales adquieren mayor relevancia que las palabras, especialmente cuando existe incoherencia entre lo que se dice y la forma en que se expresa.
+    
+    .row.bgc-1.align-items-center.p-2.p-md-3.mb-5(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
 
-    .tarjeta.bg-img1.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/t1/cta.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-1 Video - Clasificación de la comunicación en las empresas.
-              p.mb-0 Para complementar toda esta información sobre la comunicación, se invita al aprendiz a visitar el siguiente enlace.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://youtu.be/eLtu6RBqHI0')" target="_blank")
-                span Abrir video
-                i.fas.fa-file-video
+          .row.justify-content-center.align-items-center        
+            .col-12
+              p Para complementar toda esta información sobre la comunicación, se invita al aprendiz a visitar el siguiente video:
+              figure
+                .video
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/eLtu6RBqHI0?si=yorZsjfQlGJNPE9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video. Clasificación de la comunicación en las empresas
 
 
     .subt.mb-4(data-aos="fade-right")
@@ -210,7 +208,19 @@
 
     p.mb-4 En la práctica, integrar la escucha activa con una comunicación no verbal coherente permite resolver malentendidos, prevenir conflictos y fortalecer las relaciones interpersonales. Por ello, desarrollar estas habilidades requiere atención consciente, empatía y disposición para mejorar continuamente la forma en que se interactúa con los demás.
 
-    .tarjeta.bg-img1.p-3
+    .row.bgc-1.align-items-center.p-2.p-md-3(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center.align-items-center        
+            .col-12
+              p Para complementar toda esta información sobre la comunicación, se invita al aprendiz a visitar el siguiente video:
+              figure
+                .video
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/hNCY0m6VgRs?si=OOm7RrWgXVQIl0zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video. Comunicación en el equipo de trabajo
+    
+    //.tarjeta.bg-img1.p-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/t1/cta.svg")

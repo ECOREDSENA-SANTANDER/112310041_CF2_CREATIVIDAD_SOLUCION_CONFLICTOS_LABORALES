@@ -74,7 +74,7 @@
         .col-lg-11
           p.mb-5 Este diagrama ayuda a enfocar los esfuerzos en las causas más críticas, evitando dispersar recursos en problemas secundarios que tienen poco impacto en la solución global.
           .subt2.mb-4
-            h3.mb-0.px-4 Pautas clave para una comunicación asertiva
+            h3.mb-0.px-4 Etapas para construir un Diagrama de Pareto
           ol.lista-ol--cuadro.fa-lista.mb-4
             li
               .lista-ol--cuadro__vineta
@@ -165,7 +165,7 @@
         img.w-75x.mb-4(src='@/assets/curso/temas/t3/6.svg', alt='')
         p En conjunto, estas técnicas permiten analizar los problemas de manera estructurada, objetiva y estratégica. Su correcta aplicación facilita priorizar, planificar y tomar decisiones informadas, aumentando significativamente las posibilidades de resolver los conflictos de forma eficaz y sostenible dentro de la organización.
     
-    p.mb-4 Para complementar toda esta información se invita al aprendiz a visitar el siguiente podcast que será de gran utilidad:
+    p.mb-4 Para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -174,7 +174,7 @@
           .bg-white.p-3
             TarjetaAudio.color-primario.mb-3(
               texto="Pódcast: El poder en las dinámicas organizacionales"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/Poder_dinamicas_organizacionales.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

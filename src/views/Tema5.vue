@@ -17,35 +17,35 @@
     p La forma de presentar y divulgar el plan de acción depende del estilo de la organización y del nivel de complejidad del conflicto. Puede comunicarse mediante:
 
     .row.justify-content-center.mb-4(data-aos="fade")
-      .col-lg.col-md-6.mb-3
+      .col-xl.col-lg-4.col-md-6.mb-3
         .tarjeta.bg2.p-4.py-3
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-5.col-4
               img(src='@/assets/curso/temas/t5/tarj1-1.svg', alt='')
             .col-lg-7.col-md-7.col-8
               p.mb-0 Exposiciones.
-      .col-lg.col-md-6.mb-3
+      .col-xl.col-lg-4.col-md-6.mb-3
         .tarjeta.bg2.p-4.py-3
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-5.col-4
               img(src='@/assets/curso/temas/t5/tarj1-2.svg', alt='')
             .col-lg-7.col-md-7.col-8
               p.mb-0 Reuniones de equipo.
-      .col-lg.col-md-6.mb-3
+      .col-xl.col-lg-4.col-md-6.mb-3
         .tarjeta.bg2.p-4.py-3
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-5.col-4
               img(src='@/assets/curso/temas/t5/tarj1-3.svg', alt='')
             .col-lg-7.col-md-7.col-8
               p.mb-0 Informes escritos.
-      .col-lg.col-md-6.mb-3
+      .col-xl.col-lg-4.col-md-6.mb-3
         .tarjeta.bg2.p-4.py-3
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-5.col-4
               img(src='@/assets/curso/temas/t5/tarj1-4.svg', alt='')
             .col-lg-7.col-md-7.col-8
               p.mb-0 Publicaciones internas. 
-      .col-lg.col-md-6.mb-3
+      .col-xl.col-lg-4.col-md-6.mb-3
         .tarjeta.bg2.p-4.py-3
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-5.col-4

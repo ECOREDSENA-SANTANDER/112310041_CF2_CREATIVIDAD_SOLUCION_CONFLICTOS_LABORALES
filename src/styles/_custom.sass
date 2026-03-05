@@ -140,6 +140,18 @@ figcaption
 .bg-img2
   background-image:  url('../assets/curso/temas/t2/bg-slider.png')
   background-size: cover 
+.bgc-1
+  background-image: url('../assets/curso/temas/t1/bg.png')
+  background-position: top
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 .w-75x
   width: 75px
 .subt
@@ -190,15 +202,21 @@ figcaption
 .tabla-a.color-acento-contenido
   thead tr 
     background-color: #F7E869
+    text-align: left
+  th
+    text-align: left
   tbody tr
     background-color: #FFFDF0
+    text-align: left
     &:nth-child(2n)
       background-color: #FCF6C3
     td 
       padding: 15px 20px
+      text-align: left
   &.t2
     thead tr 
       background-color: #F7E869
+      text-align: left
     tbody tr
       text-align: left
       background-color: #FFFFFF
@@ -212,6 +230,7 @@ figcaption
   &.t3
     thead tr 
       background-color: #F7E869
+      text-align: left
     tbody tr
       text-align: left
       background-color: #FFFFFF
@@ -225,8 +244,10 @@ figcaption
   &.t4
     thead tr 
       background-color: #F7E869
+      text-align: left
     tbody tr
       background-color: #FFFFFF
+      text-align: left
       &:nth-child(2n)
         background-color: #FFFDF0
       

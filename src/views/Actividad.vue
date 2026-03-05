@@ -1,29 +1,25 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad_Cuestionario
-      <Actividad :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono='far fa-question-circle', titulo='Actividad didáctica')
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    #Actividad_Cuestionario
+    <Actividad :cuestionario="cuestionario"/>
+</template>
 
 <script>
-import ActividadCompletar from '@/views/plantilla/actividadCompletar/ActividadCompletar.vue'
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadCompletar,
     Actividad,
   },
   data: () => ({
     cuestionario: {
       tema: 'Comunicación asertiva para la gestión de conflictos',
-      titulo: 'Cuestionario',
+      titulo: 'Decisiones comunicativas en la gestión de conflictos laborales',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de la comunicación asertiva y su aplicación en la solución de conflictos en contextos laborales.',
+        '<b>Objetivo:</b> evaluar la comprensión de la comunicación asertiva y su aplicación en la solución de conflictos en contextos laborales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -31,662 +27,658 @@ export default {
         {
           id: 1,
           texto:
-            '¿Por qué el conflicto laboral se considera un fenómeno natural dentro de la organización?',
+            '¿Cuál es la finalidad principal de la comunicación en el contexto laboral?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Porque siempre genera sanciones disciplinarias.',
+              texto: 'Transmitir información de manera rápida.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Porque surge de la interacción entre personas con intereses y experiencias diferentes.',
+              texto: 'Generar comprensión y coordinar acciones.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Porque depende únicamente del liderazgo.',
+              texto: 'Imponer criterios organizacionales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Porque se presenta solo cuando hay fallas normativas.',
+              texto: 'Evitar el conflicto interpersonal.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 2,
           texto:
-            '¿Qué permite el pensamiento creativo en la resolución de conflictos laborales?',
+            '¿Qué ocurre cuando el proceso comunicativo se distorsiona dentro de una organización?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Evitar toda forma de conflicto.',
+              texto: 'Se fortalece el liderazgo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Analizar problemas desde una sola perspectiva.',
+              texto: 'Mejora el clima laboral.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Generar soluciones innovadoras y responsables.',
+              texto: 'Aumentan los malentendidos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Reemplazar las normas organizacionales.',
+              texto: 'Se reducen los conflictos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 3,
-          texto: '¿Cómo se concibe la creatividad desde el enfoque formativo?',
+          texto:
+            '¿Cuál de los siguientes elementos inicia el proceso de comunicación?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Como un rasgo innato y exclusivo.',
+              texto: 'Receptor',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Como una competencia desarrollable y transversal.',
-              esCorrecta: true,
+              texto: 'Canal',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Como una habilidad limitada a la infancia.',
+              texto: 'Código',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Como una capacidad artística únicamente.',
-              esCorrecta: false,
+              texto: 'Emisor',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 4,
           texto:
-            '¿Qué relación existe entre pensamiento creativo y emociones en el entorno laboral?',
+            '¿Qué tipo de comunicación se relaciona con el tono, el ritmo y las pausas al hablar?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'No existe relación directa.',
+              texto: 'Verbal',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Las emociones limitan siempre la creatividad.',
+              texto: 'No verbal',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Las emociones influyen en la forma de pensar y resolver conflictos.',
+              texto: 'Paraverbal',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'El pensamiento creativo elimina las emociones.',
+              texto: 'Escrita',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 5,
           texto:
-            '¿Cuál de los siguientes es un factor personal que puede afectar la creatividad?',
+            '¿Qué componente de la comunicación permite confirmar si el mensaje fue comprendido?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Miedo al error.',
+              texto: 'Retroalimentación',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Cultura organizacional.',
+              texto: 'Contexto',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Infraestructura tecnológica.',
+              texto: 'Código',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Normativa legal.',
+              texto: 'Canal',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 6,
-          texto: '¿Qué se entiende por bloqueos de la creatividad?',
+          texto: '¿Cuál es una barrera psicológica de la comunicación?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Técnicas para generar ideas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Barreras que limitan el pensamiento flexible.',
+              texto: 'Prejuicios personales.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Lenguaje técnico.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Estrategias de innovación.',
+              texto: 'Ruido ambiental.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Procesos administrativos.',
+              texto: 'Distancia física.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 7,
-          texto: '¿A qué se asocian principalmente los bloqueos emocionales?',
+          texto: '¿Qué caracteriza principalmente la escucha activa?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Falta de recursos económicos.',
+              texto: 'Escuchar sin intervenir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Exceso de capacitación.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Inseguridad, miedo y baja autoestima.',
+              texto: 'Prestar atención y retroalimentar.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Evitar el contacto visual.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Desconocimiento normativo.',
+              texto: 'Reducir el tiempo de conversación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 8,
           texto:
-            '¿Cuándo el estrés laboral se convierte en un factor negativo?',
+            '¿Qué efecto genera la coherencia entre el lenguaje verbal y no verbal?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Cuando es moderado.',
+              texto: 'Ambigüedad comunicativa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cuando impulsa la productividad.',
+              texto: 'Desconfianza.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Cuando genera motivación.',
-              esCorrecta: false,
+              texto: 'Credibilidad del mensaje.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Cuando es intenso o prolongado.',
-              esCorrecta: true,
+              texto: 'Autoridad jerárquica.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 9,
-          texto:
-            '¿Qué caracteriza al síndrome de desgaste profesional o burnout?',
+          texto: '¿Qué define a la comunicación asertiva en el trabajo?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Conflictos ocasionales.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agotamiento físico y mental sostenido.',
+              texto: 'Expresar ideas con respeto.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Imponer opiniones personales.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Falta de habilidades técnicas.',
+              texto: 'Evitar expresar desacuerdos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Cambios temporales de humor.',
+              texto: 'Priorizar los derechos ajenos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 10,
-          texto: '¿Cuál es el objetivo principal del acoso laboral?',
+          texto:
+            '¿Qué conducta comunicativa se asocia con imponer criterios sin considerar a los demás?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Corregir el desempeño.',
+              texto: 'Asertiva',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Fortalecer la jerarquía.',
+              texto: 'Sumisa',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Deteriorar emocionalmente a la persona afectada.',
-              esCorrecta: true,
+              texto: 'Pasiva',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Mejorar la comunicación interna.',
-              esCorrecta: false,
+              texto: 'Agresiva',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 11,
-          texto: '¿Con qué se relaciona directamente el clima organizacional?',
+          texto: '¿Cuál es una característica de la conducta sumisa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El tamaño de la empresa.',
+              texto: 'Tono firme y claro.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La satisfacción laboral.',
+              texto: 'Evita el conflicto a cualquier costo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'El tipo de contrato.',
+              texto: 'Escucha activa constante.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La antigüedad del trabajador.',
+              texto: 'Defensa equilibrada de derechos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 12,
           texto:
-            '¿Por qué es importante identificar correctamente un problema laboral?',
+            '¿Qué derecho asertivo permite establecer límites de forma respetuosa?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para aplicar soluciones inmediatas.',
+              texto: 'Cometer errores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Para evitar el análisis.',
+              texto: 'Cambiar de parecer.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para diferenciar causas y consecuencias.',
+              texto: 'Decir "no".',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para asignar responsabilidades.',
+              texto: 'Pedir aclaraciones.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 13,
-          texto: '¿Qué diferencia existe entre un problema real y un síntoma?',
+          texto: '¿Qué relación existe entre asertividad y autoestima?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'No existe diferencia.',
+              texto: 'Son independientes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'El síntoma es la causa principal.',
-              esCorrecta: false,
+              texto: 'La autoestima alta facilita la asertividad.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ambos se solucionan igual.',
+              texto: 'La asertividad reduce la autoestima.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'El problema real origina los síntomas.',
-              esCorrecta: true,
+              texto: 'No influyen en la comunicación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 14,
-          texto: '¿Cuándo se recomienda utilizar la técnica de la entrevista?',
+          texto:
+            '¿Qué metáfora se utiliza para explicar la profundidad de los conflictos laborales?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Cuando el problema es colectivo.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Cuando el conflicto tiene origen personal.',
+              texto: 'El iceberg',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'El círculo',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Cuando se requiere medir clima organizacional.',
+              texto: 'La cadena',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Cuando se aplican sanciones.',
+              texto: 'El engranaje',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 15,
           texto:
-            '¿Para qué se utiliza la reunión de equipo en la identificación de problemas?',
+            '¿Cuál es la primera fase del proceso de solución de conflictos?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para sancionar al grupo.',
+              texto: 'Actuar',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Para evitar la comunicación.',
+              texto: 'Verificar',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para analizar situaciones y tomar decisiones conjuntas.',
-              esCorrecta: true,
+              texto: 'Hacer',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para reemplazar otras técnicas.',
-              esCorrecta: false,
+              texto: 'Planear',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 16,
-          texto:
-            '¿En qué situación resulta más pertinente aplicar una encuesta?',
+          texto: '¿Qué principio fundamenta el Diagrama de Pareto?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'En conflictos individuales.',
+              texto: 'Todas las causas tienen el mismo impacto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cuando se requiere información de un grupo amplio.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'En discusiones informales.',
+              texto: 'El cambio es progresivo.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'El 80 % de los efectos proviene del 20 % de las causas.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'En entrevistas personales.',
+              texto: 'La solución depende del consenso.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 17,
           texto:
-            '¿Por qué la definición adecuada del conflicto es clave para la toma de decisiones?',
+            '¿Qué técnica permite evaluar fuerzas que impulsan o limitan una solución?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Porque permite comprender su origen y alcance.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Porque evita el diálogo.',
+              texto: 'Diagrama de flujo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Análisis del campo de fuerzas.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Porque acelera sanciones.',
+              texto: 'Diagrama de Gantt.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Porque reduce la participación.',
+              texto: 'Diagrama de árbol.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 18,
           texto:
-            '¿Qué aporta el análisis de causas y consecuencias en la gestión del conflicto?',
+            '¿Qué criterio evalúa si una solución puede ejecutarse con los recursos disponibles?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Soluciones temporales.',
+              texto: 'Eficacia',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mayor confusión del problema.',
+              texto: 'Beneficios adicionales',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Intervenciones más efectivas y sostenibles.',
+              texto: 'Realismo',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Eliminación automática del conflicto.',
+              texto: 'Impacto económico',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 19,
-          texto:
-            '¿Cómo contribuye el pensamiento creativo a los ambientes laborales?',
+          texto: '¿Qué tipo de solución busca anticipar conflictos futuros?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Incrementando la presión laboral.',
+              texto: 'Correctiva',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Evitando toda diferencia de opinión.',
+              texto: 'Paliativa',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Reemplazando los procesos formales.',
+              texto: 'Provisional',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Favoreciendo soluciones responsables y colaborativas.',
+              texto: 'Preventiva',
               esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
         {
           id: 20,
-          texto:
-            '¿De qué manera la gestión consciente de los conflictos favorece a la organización?',
+          texto: '¿Cuál es el propósito central del plan de acción?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Generando mayor control.',
+              texto: 'Analizar el conflicto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Fortaleciendo el logro de los objetivos organizacionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Eliminando la diversidad.',
+              texto: 'Formalizar sanciones.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Convertir decisiones en acciones concretas.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Centralizando las decisiones.',
+              texto: 'Identificar responsables.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+            'Sus respuestas reflejan una comprensión clara de la comunicación asertiva y su aplicación en la gestión de conflictos laborales.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el conflicto laboral y su papel dentro de la organización.',
+            'Se invita al aprendiz a leer nuevamente el componente formativo sobre comunicación asertiva para fortalecer la comprensión y mejorar los resultados.',
         },
       ],
       mensaje_final_aprobado:
-        'Ha superado la actividad y demuestra sólidos conocimientos sobre el conflicto laboral y su comprensión como parte de la dinámica organizacional.',
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre comunicación asertiva para la gestión de conflictos.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

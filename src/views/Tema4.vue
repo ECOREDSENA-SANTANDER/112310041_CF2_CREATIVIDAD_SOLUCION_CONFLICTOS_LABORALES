@@ -60,32 +60,32 @@
           img(src='@/assets/curso/temas/t4/2.png', alt='')
         .col-lg-8
           p Las soluciones pueden clasificarse según su alcance y finalidad:
-          SlyderF(columnas="col-lg-4 col-md-6")
+          SlyderF(columnas="col-xl-4 col-md-6")
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-md-8.col-lg-8
                   img(src='@/assets/curso/temas/t4/tarj1-1.svg' alt='')
-              p.text-center #[b Provisional:] se aplica de manera temporal mientras se identifican con mayor precisión las causas del problema.
+              p #[b Provisional:] se aplica de manera temporal mientras se identifican con mayor precisión las causas del problema.
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-md-8.col-lg-8
                   img(src='@/assets/curso/temas/t4/tarj1-2.svg' alt='')
-              p.text-center #[b Adaptativa:] permite convivir con efectos tolerables cuando las causas no pueden eliminarse completamente.
+              p #[b Adaptativa:] permite convivir con efectos tolerables cuando las causas no pueden eliminarse completamente.
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-md-8.col-lg-8
                   img(src='@/assets/curso/temas/t4/tarj1-3.svg' alt='')
-              p.text-center #[b Correctiva:] actúa directamente sobre las causas conocidas del problema.
+              p #[b Correctiva:] actúa directamente sobre las causas conocidas del problema.
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-md-8.col-lg-8
                   img(src='@/assets/curso/temas/t4/tarj1-4.svg' alt='')
-              p.text-center #[b Preventiva:] anticipa situaciones futuras, reduciendo la probabilidad de que el conflicto ocurra.
+              p #[b Preventiva:] anticipa situaciones futuras, reduciendo la probabilidad de que el conflicto ocurra.
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-md-8.col-lg-8
                   img(src='@/assets/curso/temas/t4/tarj1-5.svg' alt='')
-              p.text-center #[b Paliativa:] busca mitigar de forma inmediata los efectos negativos, sin eliminar la causa raíz.
+              p #[b Paliativa:] busca mitigar de forma inmediata los efectos negativos, sin eliminar la causa raíz.
               
     p Esta clasificación permite ajustar la respuesta al tipo de conflicto, evitando soluciones desproporcionadas o ineficaces.
   
@@ -221,7 +221,19 @@
 
     p Este enfoque integral favorece soluciones #[b sostenibles y aceptadas por las partes].
 
-    .tarjeta.bg-img1.p-3
+    .row.bgc-1.align-items-center.p-2.p-md-3(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center.align-items-center        
+            .col-12
+              p Para ampliar la información por favor visite el siguiente video:
+              figure
+                .video
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/A_qgEONAKhc?si=X9WI7wkg7cvAJ0ZJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video. Conflicto en la comunicación y sus soluciones
+    
+    //.tarjeta.bg-img1.p-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/t1/cta.svg")
@@ -283,9 +295,9 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.p-2.ps-lg-4.pe-lg-5 #[em PERT]: Técnica de Evaluación y Revisión de Programas (#[em Program Evaluation and Review Technique])
+      h3.mb-0.p-2.ps-lg-4.pe-lg-5 PERT: Técnica de Evaluación y Revisión de Programas (#[em Program Evaluation and Review Technique])
 
-    p.mb-4 La técnica #[em PERT] se emplea en proyectos complejos o de alto costo. Representa la secuencia de actividades, identifica dependencias y permite determinar la ruta crítica, es decir, el tiempo mínimo necesario para completar el proyecto.
+    p.mb-4 La técnica PERT se emplea en proyectos complejos o de alto costo. Representa la secuencia de actividades, identifica dependencias y permite determinar la ruta crítica, es decir, el tiempo mínimo necesario para completar el proyecto.
     
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right")
