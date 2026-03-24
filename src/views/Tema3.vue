@@ -165,7 +165,7 @@
         img.w-75x.mb-4(src='@/assets/curso/temas/t3/6.svg', alt='')
         p En conjunto, estas técnicas permiten analizar los problemas de manera estructurada, objetiva y estratégica. Su correcta aplicación facilita priorizar, planificar y tomar decisiones informadas, aumentando significativamente las posibilidades de resolver los conflictos de forma eficaz y sostenible dentro de la organización.
     
-    p.mb-4 Para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:
+    p.mb-4 Para complementar toda esta información, se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:
 
     .row.justify-content-center.mb-5
       .col-lg-10
